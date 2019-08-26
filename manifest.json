@@ -1,0 +1,7 @@
+{
+  "name": "Localizer",
+  "id": "745566742269488371",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "dist/ui.html"
+}

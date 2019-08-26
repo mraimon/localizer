@@ -1,0 +1,32 @@
+{
+  "name": "localizer",
+  "version": "1.0.0",
+  "description": "localize it!!11",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx webpack --mode=development --watch"
+  },
+  "author": "raimon",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/lodash.debounce": "^4.0.6",
+    "@types/node": "^12.7.2",
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "css-loader": "^3.2.0",
+    "html-webpack-inline-source-plugin": "0.0.10",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^1.0.0",
+    "ts-loader": "^6.0.4",
+    "typescript": "^3.5.3",
+    "url-loader": "^2.1.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  },
+  "dependencies": {
+    "lodash.debounce": "^4.0.8",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}

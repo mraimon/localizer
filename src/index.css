@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body, html {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+button {
+	cursor: pointer;
+}
+
+button:focus {
+	box-sizing: border-box;
+	box-shadow: none;
+	outline: 2px solid #ffc64a;
+}
+
+.wrapper {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.languages {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-column-gap: 10px;
+}
+
+.lang-button {
+	text-transform: lowercase;
+	border: 1px solid #494949;
+	box-shadow: none;
+	border-radius: 0;
+	background-color: #ffffff;
+	color: #494949;
+	padding: 5px 3px;
+	font-size: 11px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.lang-button-active {
+	background-color: #494949;
+	color: #ffc64a;
+}
+
+.translations {
+	margin-top: 20px;
+}
+
+.translation-box {
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.suggested-translation-box {
+	position: absolute;
+	top: 0;
+	left: 0;
+	font-size: 16px;
+	color: #b4b4b4;
+	min-height: 17px;
+	display: flex;
+	align-items: center;
+	padding: 7px 35px 5px 35px;
+}
+
+.suggested-translation {
+	color: #9f9f9f;
+}
+
+.lang-input-box {
+	position: relative;
+}
+
+.lang-input-label {
+	position: absolute;
+	top: 8px;
+	left: 10px;
+	color: #cacaca;
+	display: block;
+	font-size: 15px;
+}
+
+.lang-input-clear-button {
+	position: absolute;
+	top: 3px;
+	right: 6px;
+	color: #cacaca;
+	display: block;
+	font-size: 18px;
+	background: none;
+	border: none;
+	box-shadow: none;
+}
+
+.lang-input {
+	width: 100%;
+	font-family: 'Roboto', sans-serif, Arial;
+	padding: 6px 35px 5px 35px;
+	border: 1px solid #eee;
+	border-radius: 4px;
+	box-shadow: none;
+	font-size: 16px;
+	color: #272727;
+}
+
+.lang-input:focus {
+	box-shadow: none;
+	border: 1px solid #ffc64a;
+	outline: none;
+}
+
+.error-panel {
+	text-align: center;
+	color: #363636;
+	font-size: 14px;
+}
+
+.error-panel > h1 {
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif, Arial;
+	margin: 0;
+}
+
+.error-panel > p {
+	margin: 0;
+}
+
+.error-img {
+	width: 160px;
+	margin: 15px;
+}
